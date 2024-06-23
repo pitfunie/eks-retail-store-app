@@ -6,18 +6,18 @@ It provides:
 - A distributed component architecture in various languages and frameworks
 - Utilization of a variety of different persistence backends for different components like MySQL, DynamoDB and Redis
 - The ability to run in various container orchestration technologies like Docker Compose, Kubernetes etc.
-- Pre-built containers image for both x86-64 and ARM64 CPU architectures
+- Pre-built container image for both x86-64 and ARM64 CPU architectures
 - All components instrumented for Prometheus metrics and OpenTelemetry OTLP tracing
 - Support for Istio on Kubernetes
 - Load generator which exercises all of the infrastructure
 
-**This project is intended for educational purposes only and not for production use.**
+**This project is intended for educational purposes for production use.**
 
 ![Screenshot](/docs/images/screenshot.png)
 
 ## Application Architecture
 
-The application has been deliberately over-engineered to generate multiple de-coupled components. These components generally have different infrastructure dependencies, and may support multiple "backends" (example: Carts service supports MongoDB or DynamoDB).
+The application has been deliberately over-engineered to generate multiple de-coupled components. These components generally have different infrastructure dependencies and may support multiple "backends" (example: Carts service supports MongoDB or DynamoDB).
 
 ![Architecture](/docs/images/architecture.png)
 
