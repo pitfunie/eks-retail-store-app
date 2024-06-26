@@ -11,7 +11,7 @@ It provides:
 - Support for Istio on Kubernetes
 - Load generator which exercises all of the infrastructure
 
-**This project is intended for educational purposes for production use.**
+**This project is intended purposes for production use.**
 
 ![Screenshot](/docs/images/screenshot.png)
 
